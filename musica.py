@@ -1,8 +1,8 @@
-import pygame
+import pygame #Baixe a biblioteca pip install pygame
 
 pygame.mixer.init()
 
-pygame.mixer.music.load('C:/Users/Marcelo/Downloads/musica.mp3.mp3')
+pygame.mixer.music.load('Coloque o local do arquivo aqui')
 pygame.mixer.music.play()
 
 x = input('Digite "sair" para encerrar a música: ')
